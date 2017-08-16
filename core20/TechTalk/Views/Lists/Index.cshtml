@@ -1,0 +1,9 @@
+﻿@model IEnumerable<NetCoreWeb.Models.SharePointListViewModel>
+@{
+    ViewBag.Title = "Mvc.JQuery.DataTables";
+}
+
+<div style="position:relative;top:60px">
+    @Html.Partial("ListsTable", Model)
+</div>
+

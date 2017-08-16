@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "core20lib", "core20\core20l
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stadard20lib", "core20\stadard20lib\stadard20lib.csproj", "{025271C3-5F3A-4561-A9D5-34DBD507611B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficeDevPnP.Core.Framework.Authentication", "core20\OfficeDevPnP.Core.Framework.Authentication\OfficeDevPnP.Core.Framework.Authentication.csproj", "{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Mvc.SharePointApp", "AspNetCore.Mvc.SharePointApp\AspNetCore.Mvc.SharePointApp.csproj", "{ADD1CD0C-2E98-4BFD-B695-C60029FA3E18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficeDevPnP.Core.Framework.Authentication", "core20\OfficeDevPnP.Core.Framework.Authentication\OfficeDevPnP.Core.Framework.Authentication.csproj", "{3E19AEBE-D918-49D0-9EEF-40842D4C4018}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechTalk", "core20\TechTalk\TechTalk.csproj", "{26A5A5D1-D90E-4907-A977-20E5230D041E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficeDevPnP.Core.Framework.Authentication", "core11\OfficeDevPnP.Core.Framework.Authentication\OfficeDevPnP.Core.Framework.Authentication.csproj", "{468E421F-0B9A-4E3C-AF80-84683C7AA05B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,18 +73,6 @@ Global
 		{025271C3-5F3A-4561-A9D5-34DBD507611B}.Release|x64.Build.0 = Release|Any CPU
 		{025271C3-5F3A-4561-A9D5-34DBD507611B}.Release|x86.ActiveCfg = Release|Any CPU
 		{025271C3-5F3A-4561-A9D5-34DBD507611B}.Release|x86.Build.0 = Release|Any CPU
-		{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074}.Debug|x64.Build.0 = Debug|Any CPU
-		{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074}.Debug|x86.Build.0 = Debug|Any CPU
-		{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074}.Release|x64.ActiveCfg = Release|Any CPU
-		{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074}.Release|x64.Build.0 = Release|Any CPU
-		{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074}.Release|x86.ActiveCfg = Release|Any CPU
-		{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074}.Release|x86.Build.0 = Release|Any CPU
 		{ADD1CD0C-2E98-4BFD-B695-C60029FA3E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ADD1CD0C-2E98-4BFD-B695-C60029FA3E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADD1CD0C-2E98-4BFD-B695-C60029FA3E18}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -99,6 +91,42 @@ Global
 		{ADD1CD0C-2E98-4BFD-B695-C60029FA3E18}.Release|x86.ActiveCfg = Release|Any CPU
 		{ADD1CD0C-2E98-4BFD-B695-C60029FA3E18}.Release|x86.Build.0 = Release|Any CPU
 		{ADD1CD0C-2E98-4BFD-B695-C60029FA3E18}.Release|x86.Deploy.0 = Release|Any CPU
+		{3E19AEBE-D918-49D0-9EEF-40842D4C4018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E19AEBE-D918-49D0-9EEF-40842D4C4018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E19AEBE-D918-49D0-9EEF-40842D4C4018}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3E19AEBE-D918-49D0-9EEF-40842D4C4018}.Debug|x64.Build.0 = Debug|Any CPU
+		{3E19AEBE-D918-49D0-9EEF-40842D4C4018}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3E19AEBE-D918-49D0-9EEF-40842D4C4018}.Debug|x86.Build.0 = Debug|Any CPU
+		{3E19AEBE-D918-49D0-9EEF-40842D4C4018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E19AEBE-D918-49D0-9EEF-40842D4C4018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E19AEBE-D918-49D0-9EEF-40842D4C4018}.Release|x64.ActiveCfg = Release|Any CPU
+		{3E19AEBE-D918-49D0-9EEF-40842D4C4018}.Release|x64.Build.0 = Release|Any CPU
+		{3E19AEBE-D918-49D0-9EEF-40842D4C4018}.Release|x86.ActiveCfg = Release|Any CPU
+		{3E19AEBE-D918-49D0-9EEF-40842D4C4018}.Release|x86.Build.0 = Release|Any CPU
+		{26A5A5D1-D90E-4907-A977-20E5230D041E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A5A5D1-D90E-4907-A977-20E5230D041E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A5A5D1-D90E-4907-A977-20E5230D041E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{26A5A5D1-D90E-4907-A977-20E5230D041E}.Debug|x64.Build.0 = Debug|Any CPU
+		{26A5A5D1-D90E-4907-A977-20E5230D041E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{26A5A5D1-D90E-4907-A977-20E5230D041E}.Debug|x86.Build.0 = Debug|Any CPU
+		{26A5A5D1-D90E-4907-A977-20E5230D041E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A5A5D1-D90E-4907-A977-20E5230D041E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A5A5D1-D90E-4907-A977-20E5230D041E}.Release|x64.ActiveCfg = Release|Any CPU
+		{26A5A5D1-D90E-4907-A977-20E5230D041E}.Release|x64.Build.0 = Release|Any CPU
+		{26A5A5D1-D90E-4907-A977-20E5230D041E}.Release|x86.ActiveCfg = Release|Any CPU
+		{26A5A5D1-D90E-4907-A977-20E5230D041E}.Release|x86.Build.0 = Release|Any CPU
+		{468E421F-0B9A-4E3C-AF80-84683C7AA05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468E421F-0B9A-4E3C-AF80-84683C7AA05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468E421F-0B9A-4E3C-AF80-84683C7AA05B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{468E421F-0B9A-4E3C-AF80-84683C7AA05B}.Debug|x64.Build.0 = Debug|Any CPU
+		{468E421F-0B9A-4E3C-AF80-84683C7AA05B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{468E421F-0B9A-4E3C-AF80-84683C7AA05B}.Debug|x86.Build.0 = Debug|Any CPU
+		{468E421F-0B9A-4E3C-AF80-84683C7AA05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468E421F-0B9A-4E3C-AF80-84683C7AA05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468E421F-0B9A-4E3C-AF80-84683C7AA05B}.Release|x64.ActiveCfg = Release|Any CPU
+		{468E421F-0B9A-4E3C-AF80-84683C7AA05B}.Release|x64.Build.0 = Release|Any CPU
+		{468E421F-0B9A-4E3C-AF80-84683C7AA05B}.Release|x86.ActiveCfg = Release|Any CPU
+		{468E421F-0B9A-4E3C-AF80-84683C7AA05B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,34 +135,11 @@ Global
 		{4AF58F7D-978E-4BAF-B188-F9EB73491BEE} = {3D36EDB8-39EF-42ED-89B3-858F76B9A9A3}
 		{85CA5A6B-B358-42DB-A787-CB1BE1B3FD82} = {54ECAEB9-7B3B-41AC-B0D8-BD5077E80F9A}
 		{025271C3-5F3A-4561-A9D5-34DBD507611B} = {54ECAEB9-7B3B-41AC-B0D8-BD5077E80F9A}
-		{D7AFCFD9-02A8-4F40-B135-F0F66F3AF074} = {54ECAEB9-7B3B-41AC-B0D8-BD5077E80F9A}
+		{3E19AEBE-D918-49D0-9EEF-40842D4C4018} = {54ECAEB9-7B3B-41AC-B0D8-BD5077E80F9A}
+		{26A5A5D1-D90E-4907-A977-20E5230D041E} = {54ECAEB9-7B3B-41AC-B0D8-BD5077E80F9A}
+		{468E421F-0B9A-4E3C-AF80-84683C7AA05B} = {3D36EDB8-39EF-42ED-89B3-858F76B9A9A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6D40F64-D2A5-4311-A242-D39B878669DE}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tombuc.visualstudio.com/
-		SccProjectUniqueName0 = AspNetCore.Mvc.SharePointApp\\AspNetCore.Mvc.SharePointApp.csproj
-		SccProjectName0 = AspNetCore.Mvc.SharePointApp
-		SccLocalPath0 = AspNetCore.Mvc.SharePointApp
-		SccLocalPath1 = .
-		SccProjectUniqueName2 = core11\\TechTalk\\TechTalk.csproj
-		SccProjectTopLevelParentUniqueName2 = TechTalk.sln
-		SccProjectName2 = core11/TechTalk
-		SccLocalPath2 = core11\\TechTalk
-		SccProjectUniqueName3 = core20\\core20lib\\core20lib.csproj
-		SccProjectTopLevelParentUniqueName3 = TechTalk.sln
-		SccProjectName3 = core20/core20lib
-		SccLocalPath3 = core20\\core20lib
-		SccProjectUniqueName4 = core20\\OfficeDevPnP.Core.Framework.Authentication\\OfficeDevPnP.Core.Framework.Authentication.csproj
-		SccProjectTopLevelParentUniqueName4 = TechTalk.sln
-		SccProjectName4 = core20/OfficeDevPnP.Core.Framework.Authentication
-		SccLocalPath4 = core20\\OfficeDevPnP.Core.Framework.Authentication
-		SccProjectUniqueName5 = core20\\stadard20lib\\stadard20lib.csproj
-		SccProjectTopLevelParentUniqueName5 = TechTalk.sln
-		SccProjectName5 = core20/stadard20lib
-		SccLocalPath5 = core20\\stadard20lib
 	EndGlobalSection
 EndGlobal

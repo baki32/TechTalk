@@ -53,9 +53,9 @@
     <ProjectCapability Remove="ProjectConfigurationsInferredFromUsage" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\core20\OfficeDevPnP.Core.Framework.Authentication\OfficeDevPnP.Core.Framework.Authentication.csproj" />
+    <Folder Include="js\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="js\" />
+    <ProjectReference Include="..\OfficeDevPnP.Core.Framework.Authentication\OfficeDevPnP.Core.Framework.Authentication.csproj" />
   </ItemGroup>
 </Project>
