@@ -1,15 +1,10 @@
 ﻿namespace TechTalk.Controllers
-{ 
-    using System.Collections.Generic;
+{
     using Microsoft.AspNetCore.Mvc;
     using OfficeDevPnP.Core.Framework.Authentication;
     using Microsoft.AspNetCore.Authorization;
     using NetCoreWeb.Models;
-    using Mvc.JQuery.DataTables;
-    using System.Linq;
-    using System.Web.UI.WebControls;
     using System;
-    using System.Linq.Dynamic;
     using NetCoreWeb;
 
     [Authorize]

@@ -6,6 +6,8 @@
         serverSide: true, // for process server side
         filter: false, // this is for disable filter (search box)
         orderMulti: false, // for disable multiple column at once
+        "responsive": true,
+        "bAutoWidth": false, 
         ajax: {
             url: "/Lists/LoadDataPaged",
             type: "POST",
@@ -25,11 +27,6 @@
                     return "<input type='button' value='Edit " + full.listTitle + "' data-list-id='" + full.listId + "' data-list-title='" + full.listTitle + "''></input>";
                 }
             }
-            //{ "data": "CompanyName", "autoWidth": true },
-            //{ "data": "Phone", "autoWidth": true },
-            //{ "data": "Country", "autoWidth": true },
-            //{ "data": "City", "autoWidth": true },
-            //{ "data": "PostalCode", "autoWidth": true }
         ],
         initComplete: function (settings, json) {
 

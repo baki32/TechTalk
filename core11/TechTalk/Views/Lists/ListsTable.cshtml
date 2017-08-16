@@ -1,12 +1,6 @@
-﻿@using Mvc.JQuery.DataTables
-@using TechTalk.Controllers
-@using Mvc.JQuery.DataTables.Models
-@using Mvc.JQuery.DataTables.Serialization
-@model IEnumerable<NetCoreWeb.Models.SharePointListViewModel>
+﻿@model IEnumerable<NetCoreWeb.Models.SharePointListViewModel>
 
-<table class="table table-striped" id="myTable" />
-
-
+<table class="table table-striped" id="myTable"></table>
 <div style="display:none">
     <div id="dialog-form" title="MONSTER">
 
@@ -14,11 +8,9 @@
             <fieldset>
                 <div class="form-group">
                     <label for="listTitle">Title</label>
-                    <input type="text" name="listTitle" id="listTitle" value="TEST"> @*class="text ui-widget-content ui-corner-all"*@
+                    <input type="text" name="listTitle" id="listTitle" value="TEST">
                 </div>
                 <input type="hidden" name="listID" id="listID" />
-
-                @*<input type="submit" tabindex="-1" style="position:absolute; top:-1000px">*@
             </fieldset>
         </form>
     </div>
